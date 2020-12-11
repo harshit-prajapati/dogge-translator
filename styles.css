@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500&display=swap');
+
+.body {
+    max-width: 1140px;
+    min-width: 320px;
+    font-family: Poppins;
+    height: auto;
+    margin: auto;
+    margin-top: 24px;
+}
+.hero-section{
+   margin: 4rem auto;
+   width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.hero-img{
+    max-width: 80%;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.hero-text{
+    width: 50%;
+}
+.hero-heading{
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 40px;
+}
+.sub-heading{
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+}
+
+.translate-section{
+    max-width: 1140px;
+    min-width: 320px;
+    font-family: Poppins;
+    height: auto;
+    margin: auto;
+    margin-top: 24px;
+    justify-content: center;
+}
+.text-to-convert{
+    padding: 0 0 0 0;
+    margin: auto;
+    width: 100%;
+    height: 8rem;
+    border: 1px solid #000000;
+    border-radius: .5rem;
+}
+.button{
+    padding: 0 0 0 0 ;
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #a26330;
+    border: 1px solid #a26330;
+    border-radius: 1rem;
+    font-family: 'Poppins',
+    sans-serif;
+   font-size: 22px;
+   font-weight: bolder;
+}
+.output-text{
+     max-width: 100%;
+     min-width: 320px;
+     max-height: fit-content;
+     text-align: center;
+     color: #3b3b3b;
+}
+#output-text{
+    padding: 1rem;
+}
